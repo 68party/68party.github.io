@@ -2,7 +2,7 @@ var isClose = false;
 (function () {
     init();
     bindEvent();
-    var swiper = new Swiper(".swiper-container", {pagination: ".swiper-pagination", paginationClickable: true, loop: true, direction: "vertical", onSlideChangeEnd: onSlider})
+    var swiper = new Swiper(".swiper-container", {pagination: ".swiper-pagination", paginationClickable: true, loop: false, direction: "vertical", onSlideChangeEnd: onSlider})
 })();
 function onSlider(swiper) {
     var dataP = parseInt($(".swiper-slide-active").attr("dataP"));
