@@ -41,5 +41,8 @@ function bindEvent(){
             isClose = false;
         }
 
+    });
+    $('#lastPage').bind('click',function(){
+        location.href='http://www.68party.com';
     })
 }
